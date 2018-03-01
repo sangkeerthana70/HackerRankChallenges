@@ -59,7 +59,7 @@ process.stdin.on('end', function (data){
 
 function readLine() {
     return input_stdin_array[input_currentline++];
-    readLine()
+    readLine();
 }
 /////////////// ignore above this line ////////////////////
 
