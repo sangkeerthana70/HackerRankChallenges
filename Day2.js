@@ -64,15 +64,15 @@ function readLine() {
 /////////////// ignore above this line ////////////////////
 
 function main() {
-    var meal_cost = parseFloat(readLine());//string to a decimal 
-    var tip_percent = parseInt(readLine());//string to a integer
-    var tax_percent = parseInt(readLine());//string to a integer
-    var total_cost = 0;
-    var tip = meal_cost * (tip_percent/100);
-    var tax = meal_cost * (tax_percent/100);
-    total_cost = "The total meal cost is " + Math.round(meal_cost + tip + tax) + "dollars";
-    //console.log("The total meal cost is " + total_cost + "dollars");
-}
-
-}
+    var mealCost = parseFloat(readLine(mealCost));//string to a decimal 
+    var tipPercent = parseInt(readLine(tipPercent));//string to a integer
+    var taxPercent = parseInt(readLine(taxPercent));//string to a integer
+    var totalCost = 0;
+    var tip = mealCost * (tipPercent/100);
+    var tax = mealCost * (taxPercent/100);
+    totalCost =  mealCost + tip + tax;
+    
+    console.log("The total meal cost is " + totalCost + "dollars");
+    
+};
 
