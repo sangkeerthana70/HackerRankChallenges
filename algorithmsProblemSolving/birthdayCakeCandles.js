@@ -32,8 +32,8 @@ Because there are 2 such candles, we print 2 on a new line.*/
 
 // Complete the birthdayCakeCandles function below.
 function birthdayCakeCandles(ar) {
-    var highest = 0;
-    var counter = 0;
+    let highest = 0;
+    let counter = 0;
     
 	ar.forEach(function(ar) {
 				if (ar > highest){
